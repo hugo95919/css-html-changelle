@@ -1,0 +1,75 @@
+body{
+    background-color: #61c2bc;
+}
+
+h1{
+    margin-bottom: 0;
+    margin-top: 0;
+    font-size: 30px;
+}
+h2{
+    margin-top: 0px;
+    font-size: 20px;
+}
+
+article{
+    max-width: 900px;
+    border-radius: 5px;
+    font-family: 'KoHo', sans-serif;
+    background-color: #f2f0f0;
+    padding: 1em 2em 1em 21em;
+    box-sizing: border-box;
+}
+
+a{
+    color: #61c2bc;
+    text-decoration: none;
+    
+}
+
+li{
+    
+    width: 40px;
+    display: inline-block;
+    margin-left: 10px;
+}
+div{
+    overflow: hidden;
+}
+
+address{
+    float: left;
+    line-height: 4;
+}
+
+ul{
+    float: right;
+}
+.icono{
+    display: inline-block;
+}
+
+.icono-map{
+    font-size: 20px;
+    color:gray;
+}
+.icono-git{
+    font-size: 35px;
+    color: #ababab;
+}
+.icono-env{
+    font-size: 35px;
+    color: #ababab;
+}
+.icono-link{
+    font-size: 35px;
+    color:#62ABBE;
+}
+
+.foto{
+    position: absolute;
+    top: 0px;
+    left: 35px;
+    bottom: 0px;
+    right: 0px;
+}
