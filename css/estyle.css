@@ -1,0 +1,179 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.tp_Target{
+    position: relative;
+    font-family: 'KoHo', sans-serif;
+    box-sizing: border-box;
+   }
+
+.tp_Target:before{
+    content: '';
+    background-image: url('../image/hugo.jpg');
+    position: absolute;
+    height:18em;
+    width: 100%;
+    background-size: cover;
+    
+}
+
+    .tp_Target-info{
+        padding: 19em 1.5em 1em 1.5em;
+    }
+
+        .tp_Target-info-title{
+            margin-bottom: 0;
+            margin-top: 0;
+            font-size: 1.5em;
+        }
+
+        .tp_Target-info-sub{
+            margin-top: 0.2em;
+            font-size: 1em;
+        }
+
+        .tp_Target-info-mifiel{
+            color: #61c2bc;
+            text-decoration: none;
+        }
+
+        .tp_Target-info-description{
+            font-size: 1em;
+        }
+
+        
+        .tp_Target-info-contact{
+            
+        }
+        
+            
+            .tp_Target-info-contact-address{
+               
+            }
+        
+            .tp_Target-info-contact-address-map
+            {
+                font-size: 20px;
+                color:gray;
+            }
+        
+            .tp_Target-info-contact-address-city{
+                font-size: 0.9em;
+             }
+        
+            .tp_Target-info-contact-icons{
+                padding: 0;
+                margin: 1em 0 0.7em 0;
+            }
+        
+                .tp_Icon-link{
+                    font-size: 2em;
+                    color:#ababab;
+                }
+        
+                .tp_Icon-link-linkedin{
+                    color:#62ABBE;
+                }
+        
+                .tp_Icon{
+                    display: inline-block;
+                    padding: 0 1em 0 0em;
+                }
+
+
+        
+@media screen and  (min-width:576px){
+    body, html {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+    }
+
+    body{
+        background-color: #61c2bc;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .tp_Target::before{
+        height: 14em;
+    }
+    .tp_Target{
+        max-width: 83%;
+    }
+
+
+    .tp_Target-info-foto{
+        
+        height: 38%;
+        
+    }
+
+    .tp_Target-info{
+       
+        border-radius: 5px;
+        background-color: #f2f0f0;
+        padding: 15em 2em 1em 2em;
+        box-sizing: border-box;
+       }
+
+       .tp_Target-info-contact{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+       }
+
+       .tp_Target-info-contact-icons{
+        display: flex;
+        margin:0 0 0.7em 0;
+    }
+
+        .tp_Icon{
+            display: inline-block;
+            padding: 0 0.5em 0 0.7em;
+        }
+
+
+}
+
+
+
+@media screen and  (min-width:768px){
+    .tp_Target::before{
+        content: '';
+        background-image: url('../image/hugo1.jpg');
+        height: 100%;
+        width: 36%;
+    }
+
+    .tp_Target-info{
+        border-radius: 5px;
+        padding: 2em 2em 1em 38%;
+        box-sizing: border-box;
+       }
+}
+
+
+@media screen and  (min-width:992px){
+
+    .tp_Target::before{
+        content: '';
+        height: 111%;
+        width: 33%;
+        position: absolute;
+        top: -6%;
+        left: 2%;
+        bottom: 0px;
+        right: 0px;
+    }
+
+    .tp_Target{
+        max-width: 70%;
+        border-radius: 5px;
+        box-sizing: border-box;
+       }
+}
